@@ -1,0 +1,16 @@
+$ python src/generate_synthetic.py sample/source.csv --rows 500 --output outputs/synthetic.csv
+{
+  "numeric_ks": {
+    "age": {
+      "statistic": 0.10933333333333334,
+      "p_value": 0.9999873781200207
+    },
+    "income": {
+      "statistic": 0.12333333333333334,
+      "p_value": 0.999827924192468
+    }
+  },
+  "exact_row_overlap_count": 0,
+  "exact_row_overlap_percent": 0.0
+}
+

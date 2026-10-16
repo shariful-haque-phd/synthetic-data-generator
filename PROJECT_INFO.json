@@ -1,0 +1,31 @@
+{
+  "project_id": 6,
+  "repo_name": "006-synthetic-data-generator",
+  "title": "Synthetic Data Generator",
+  "theme": "Data Foundations & Engineering",
+  "theme_id": "T01",
+  "level": 1,
+  "level_label": "Foundations",
+  "prototype_status": "research prototype",
+  "primary_description": "Synthetic tabular data baseline",
+  "research_question_proposed": "How well does simple tabular resampling preserve distributions without reproducing sensitive records?",
+  "sample_files": [
+    "sample/source.csv"
+  ],
+  "source_modules": [
+    "src/generate_synthetic.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/generate_synthetic.py sample/source.csv --rows 500 --output outputs/synthetic.csv"
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level1-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "006",
+  "status": "executed",
+  "commands": [
+    "python src/generate_synthetic.py sample/source.csv --rows 500 --output outputs/synthetic.csv"
+  ],
+  "elapsed_seconds": 3.92,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/source.csv",
+      "sha256": "ffafcc8247f728f58e2fa9e707976edbf08f9d21b8baf84be2fd663c06bf9ea5"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "f7d98fa16d5d1afd690c56effe6def489285aa62d112041afdbc627388e62cf0",
+      "bytes": 383
+    },
+    {
+      "file": "results/artifacts/synthetic.csv",
+      "sha256": "62234b7dde0cf9a9a124504935813a4760c0f2df2115eaf5667b83e7087a45d3",
+      "bytes": 18975
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}
